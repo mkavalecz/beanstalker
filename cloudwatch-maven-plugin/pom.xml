@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>beanstalker</artifactId>
-        <groupId>br.com.ingenieux</groupId>
+        <groupId>com.github.mkavalecz</groupId>
         <version>1.5.7-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -47,7 +47,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>br.com.ingenieux</groupId>
+            <groupId>com.github.mkavalecz</groupId>
             <artifactId>beanstalker-common</artifactId>
         </dependency>
         <dependency>

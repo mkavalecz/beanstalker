@@ -22,7 +22,7 @@
     <version>7</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.ingenieux</groupId>
+  <groupId>com.github.mkavalecz</groupId>
   <artifactId>beanstalker</artifactId>
   <packaging>pom</packaging>
   <version>1.5.7-SNAPSHOT</version>
@@ -192,7 +192,7 @@
         <version>${jackson.version}</version>
       </dependency>
       <dependency>
-        <groupId>br.com.ingenieux</groupId>
+        <groupId>com.github.mkavalecz</groupId>
         <artifactId>beanstalker-common</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -334,7 +334,7 @@
           <version>3.8.2</version>
         </plugin>
         <plugin>
-          <groupId>br.com.ingenieux</groupId>
+          <groupId>com.github.mkavalecz</groupId>
           <artifactId>beanstalk-maven-plugin</artifactId>
           <version>${project.version}</version>
         </plugin>
