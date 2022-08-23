@@ -20,7 +20,7 @@
     <parent>
         <artifactId>beanstalker</artifactId>
         <groupId>com.github.mkavalecz.beanstalker</groupId>
-        <version>1.5.7-midori20220823</version>
+        <version>1.5.7-midori20220824-1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
