@@ -269,7 +269,7 @@ public class PushStackMojo extends AbstractCloudformationMojo {
   }
 
   private UpdateStackResult updateStack() throws Exception {
-    UpdateStackRequest req = new UpdateStackRequest().withStackName(stackName).withCapabilities(Capability.CAPABILITY_IAM);
+    UpdateStackRequest req = new UpdateStackRequest().withStackName(stackName).withCapabilities(Capability.CAPABILITY_IAM, CAPABILITY_NAMED_IAM);
 
     if (null != this.destinationS3Uri) {
       req.withTemplateURL(generateExternalUrl(this.destinationS3Uri));
