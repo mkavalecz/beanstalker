@@ -166,7 +166,7 @@
         <version>${jackson.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.github.mkavalecz</groupId>
+        <groupId>com.github.mkavalecz.beanstalker</groupId>
         <artifactId>beanstalker-common</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -308,7 +308,7 @@
           <version>3.8.2</version>
         </plugin>
         <plugin>
-          <groupId>com.github.mkavalecz</groupId>
+          <groupId>com.github.mkavalecz.beanstalker</groupId>
           <artifactId>beanstalk-maven-plugin</artifactId>
           <version>${project.version}</version>
         </plugin>

@@ -25,6 +25,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>com.github.mkavalecz.beanstalker</groupId>
     <artifactId>elasticbeanstalk-javase-archetype</artifactId>
     <packaging>maven-archetype</packaging>
 

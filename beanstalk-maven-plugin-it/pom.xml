@@ -22,6 +22,8 @@
         <version>1.5.7-midori20220823</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+
+    <groupId>com.github.mkavalecz.beanstalker</groupId>
     <artifactId>beanstalk-maven-plugin-it</artifactId>
 
     <properties>
@@ -59,7 +61,7 @@
             <version>2.0.11</version>
         </dependency>
         <dependency>
-            <groupId>com.github.mkavalecz</groupId>
+            <groupId>com.github.mkavalecz.beanstalker</groupId>
             <artifactId>beanstalk-maven-plugin</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -71,7 +73,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.github.mkavalecz</groupId>
+                        <groupId>com.github.mkavalecz.beanstalker</groupId>
                         <artifactId>beanstalk-maven-plugin</artifactId>
                         <version>${project.version}</version>
                         <executions>

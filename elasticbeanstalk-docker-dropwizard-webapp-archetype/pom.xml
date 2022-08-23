@@ -25,6 +25,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>com.github.mkavalecz.beanstalker</groupId>
     <artifactId>elasticbeanstalk-docker-dropwizard-webapp-archetype</artifactId>
     <packaging>maven-archetype</packaging>
 
