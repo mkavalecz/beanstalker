@@ -22,7 +22,7 @@
     <version>7</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.mkavalecz</groupId>
+  <groupId>com.github.mkavalecz.beanstalker</groupId>
   <artifactId>beanstalker</artifactId>
   <packaging>pom</packaging>
   <version>1.5.7-midori20220823</version>
