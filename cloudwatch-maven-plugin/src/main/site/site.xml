@@ -29,7 +29,7 @@
         <head><![CDATA[
             <script type="text/javascript">
 
-                var _gaq = _gaq || [];
+                /*var _gaq = _gaq || [];
                 _gaq.push(['_setAccount', 'UA-37070079-1']);
                 _gaq.push(['_setDomainName', 'ingenieux.com.br']);
                 _gaq.push(['_trackPageview']);
@@ -41,7 +41,7 @@
                 '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
                 s);
-                })();
+                })();*/
 
             </script>]]>
         </head>

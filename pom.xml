@@ -31,7 +31,6 @@
   <description>Beanstalker is a set of maven-tooling. It includes both an archetype and a
     plugin.
   </description>
-  <url>http://beanstalker.ingenieux.com.br</url>
   <inceptionYear>2011</inceptionYear>
 
   <prerequisites>
@@ -45,14 +44,6 @@
     </license>
   </licenses>
 
-  <distributionManagement>
-    <site>
-      <id>beanstalker.ingenieux.com.br</id>
-      <name>ingenieux Beanstalker Site</name>
-      <url>s3://beanstalker.ingenieux.com.br</url>
-    </site>
-  </distributionManagement>
-
   <mailingLists>
     <mailingList>
       <name>beanstalker-users</name>
@@ -64,11 +55,6 @@
     </mailingList>
   </mailingLists>
 
-  <organization>
-    <name>ingenieux</name>
-    <url>http://ingenieux.com.br</url>
-  </organization>
-
   <developers>
     <developer>
       <id>aldrinleal</id>
@@ -76,11 +62,6 @@
       <timezone>-3</timezone>
     </developer>
   </developers>
-
-  <issueManagement>
-    <system>github</system>
-    <url>https://github.com/ingenieux/beanstalker/issues</url>
-  </issueManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -90,13 +71,6 @@
     <aws.sdk.version>1.11.525</aws.sdk.version>
     <jackson.version>2.10.0.pr3</jackson.version>
   </properties>
-
-  <scm>
-    <connection>scm:git:git@github.com:ingenieux/beanstalker.git</connection>
-    <developerConnection>scm:git:git@github.com:ingenieux/beanstalker.git
-    </developerConnection>
-    <url>scm:git:git@github.com:ingenieux/beanstalker.git</url>
-  </scm>
 
   <modules>
     <module>beanstalker-common</module>
