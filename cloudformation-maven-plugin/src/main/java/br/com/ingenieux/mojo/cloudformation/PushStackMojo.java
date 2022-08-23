@@ -49,6 +49,7 @@ import java.util.stream.Collectors;
 import br.com.ingenieux.mojo.aws.util.BeanstalkerS3Client;
 import br.com.ingenieux.mojo.cloudformation.cmd.WaitForStackCommand;
 
+import static com.amazonaws.services.cloudformation.model.Capability.CAPABILITY_NAMED_IAM;
 import static java.util.Arrays.asList;
 import static org.apache.commons.lang.StringUtils.isNotBlank;
 
@@ -244,7 +245,7 @@ public class PushStackMojo extends AbstractCloudformationMojo {
   }
 
   private CreateStackResult createStack() throws Exception {
-    CreateStackRequest req = new CreateStackRequest().withStackName(stackName).withCapabilities(Capability.CAPABILITY_IAM);
+    CreateStackRequest req = new CreateStackRequest().withStackName(stackName).withCapabilities(Capability.CAPABILITY_IAM, CAPABILITY_NAMED_IAM);
 
     if (null != this.destinationS3Uri) {
       req.withTemplateURL(generateExternalUrl(this.destinationS3Uri));
