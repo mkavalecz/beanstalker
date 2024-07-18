@@ -152,6 +152,8 @@ public class WaitForEnvironmentCommand extends BaseCommand<WaitForEnvironmentCon
               if (negated) {
                 result = !result;
               }
+              
+              result = result && !"Terminated".equals(t.getStatus());
 
               debug("testing status '%s' as equal as '%s' (negated? %s, offset: %d): %s", vStatusToWaitFor, t.getStatus(), negated, offset, result);
 
